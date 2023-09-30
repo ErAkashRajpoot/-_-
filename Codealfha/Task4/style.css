@@ -1,0 +1,124 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.nav-bar a:hover{
+    color: white;
+}
+
+header {
+    display: flex;
+    background-color: #66bfbf;
+    color: #016265;
+    padding: 20px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar .nav-bar-link{
+    text-decoration: none;
+    color: #027b80;
+}
+.nav-bar-section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    gap: 60px;
+}
+section {
+    padding: 50px;
+}
+.Top-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4f9f5;
+}
+.Top-container .cloud-top{
+    justify-content: flex-end;
+    display: flex;
+}
+.Top-container .Title-text{
+    text-align: center;
+}
+.Title-text h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+.Title-text h2{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.Top-container .moutain{
+    display: flex;
+    justify-content: center;
+}
+.Top-container .cloud-bottom{
+    display: flex;
+    align-items: flex-start;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.middle-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-container-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.middle-container-section button{
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-color: #66bfbf;
+}
+#chillies{
+    margin: 0;
+    padding: 0;
+}
+.My-Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.My-Skills1 h3{
+    color: #11999e;
+}
+.middle-container-section h2{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+footer {
+    background-color:  #66bfbf;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0 20px
+}
+.footer .footer-link{
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none
+}
+.footer a:hover{
+    color: white;
+} 
